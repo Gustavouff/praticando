@@ -1,0 +1,13 @@
+dados = read.csv2("dados - respostas formulário.csv")
+attach(dados)
+
+str(dados)
+prop.table(table(ingresso))
+prop.table(table(sexo))
+prop.table(table(grupo_sanguineo))
+prop.table(table(ingresso))
+prop.table(table(ingere_pao))
+prop.table(table(ingere_massa))
+prop.table(table(ingere_refri))
+prop.table(table(ingere_alcool))
+prop.table(table(fruta_gosta))
